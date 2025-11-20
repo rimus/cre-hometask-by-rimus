@@ -1,0 +1,22 @@
+{
+  "name": "cre-hometask-by-rimus",
+  "version": "1.0.0",
+  "description": "Example of CRE Hometask Solution",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio run src/config/wdio.conf.js",
+    "test:bdd": "wdio run src/config/wdio.bdd.conf.js"
+  },
+  "keywords": [],
+  "author": "rimus <aliaksandr.yeutushkou@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/cli": "^9.20.1",
+    "@wdio/cucumber-framework": "^9.20.1",
+    "@wdio/local-runner": "^9.20.1",
+    "@wdio/mocha-framework": "^9.20.1",
+    "@wdio/spec-reporter": "^9.20.0",
+    "winston": "^3.18.3"
+  }
+}
