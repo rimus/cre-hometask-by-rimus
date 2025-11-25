@@ -6,7 +6,7 @@ Feature: Login functionality
 
   @negative @UC-1
   Scenario: Test Login Form with Empty Credentials
-    When the user fills the login form with valid credentials
+    When the user fills the login form with username "standard_user"
     And clears the username field
     And clears the password field
     And presses the login button
@@ -14,7 +14,7 @@ Feature: Login functionality
 
   @negative @UC-2
   Scenario: Test Login Form with Only Username
-    When the user fills the login form with valid credentials
+    When the user fills the login form with username "standard_user"
     And clears the password field
     And presses the login button
     Then the user should see a missing password error

@@ -4,8 +4,8 @@
   "description": "Example of CRE Hometask Solution",
   "main": "index.js",
   "scripts": {
-    "test": "wdio run src/config/wdio.conf.js",
-    "test:bdd": "wdio run src/config/wdio.bdd.conf.js"
+    "test": "wdio run src/config/wdio.mocha.conf.js",
+    "test:bdd": "wdio run src/config/wdio.cucumber.conf.js"
   },
   "keywords": [],
   "author": "rimus <aliaksandr.yeutushkou@gmail.com>",
@@ -15,8 +15,9 @@
     "@wdio/cli": "^9.20.1",
     "@wdio/cucumber-framework": "^9.20.1",
     "@wdio/local-runner": "^9.20.1",
+    "@wdio/logger": "^9.18.0",
     "@wdio/mocha-framework": "^9.20.1",
     "@wdio/spec-reporter": "^9.20.0",
-    "winston": "^3.18.3"
+    "deepmerge": "^4.3.1"
   }
 }
