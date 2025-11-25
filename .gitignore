@@ -1,9 +1,11 @@
-### JetBrains
+### JetBrains ###
 .idea/
 *.iml
 
-### Node.js
+### Node.js ###
 node_modules/
 
-### Logs
+### Testing artifacts ###
 logs/
+reports/
+screenshots/
